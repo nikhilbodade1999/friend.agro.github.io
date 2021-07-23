@@ -1,0 +1,199 @@
+body {
+  font-family: 'montserrat';
+}
+
+#title {
+  background-image: url(https://image1.jdomni.in/banner/11112020/09/9F/92/EC067A01453BF7BB7B83FC0B26_1605081292858.png);
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 7% 8%;
+}
+
+h1 {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+p {
+  padding-top: 40px;
+  font-family: 'Ubuntu';
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-family: 'Ubuntu';
+  font-size: 1.3rem;
+  line-height: 2;
+}
+
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+    margin-top: 10px;
+  }
+
+  .whatsapp_float {
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 10px;
+    font-size: 22px;
+  }
+}
+
+/* navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-left: 0px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+.nav-item {
+  padding: 0 5px;
+  font-size: 1.3rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+}
+
+/* features */
+#features {
+  padding: 7% 7%;
+  background-color: #EFFFFB;
+}
+
+.features-box {
+  font-family: "Ubuntu";
+  text-align: center;
+}
+
+.features-box img {
+  width: 80%;
+}
+
+.features-text {
+  text-align: center;
+  font-family: "montserrat-black";
+  padding-bottom: 20px;
+}
+
+.image:hover {
+  color: #ff4c68;
+}
+
+/* products section */
+#products {
+  padding: 7% 4%;
+  text-align: center;
+  background-color: #F9F9F9;
+}
+
+.products-text {
+  padding-bottom: 40px;
+  font-family: "montserrat-black";
+}
+
+.products-img {
+  padding: 4% 4%;
+  width: 30%;
+}
+
+#About {
+  text-align: center;
+  background-color: #EFFFFB;
+}
+
+ .agro-text{
+   font-size: 1.7rem;
+ }
+
+.about-text {
+  padding-bottom: 40px;
+  font-family: "montserrat-black";
+}
+
+.spry-img {
+  width: 600px;
+}
+
+#Gallery {
+  text-align: center;
+  background-color: #F9F9F9;
+}
+
+.GALLERY-text {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "montserrat-black";
+}
+
+.Gallery-img {
+  width: 420px;
+  padding: 4% 4%;
+}
+
+#contact {
+  text-align: center;
+  background-color: #EFFFFB;
+  padding-left: 30px;
+}
+
+.contact-text {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "montserrat-black";
+}
+
+/* footer section */
+#footer {
+  padding: 7% 12%;
+  text-align: center;
+  background-color: #D7FFFD;
+}
+
+.footer-link {
+  padding: 30px 20px 20px;
+}
+
+.copyright {
+  font-family: "montserrat";
+  font-size: 1.3rem;
+}
+ .made-by{
+   font-size: 1.3rem;
+   font-family: "montserrat-black";
+   padding-top: 20px;
+   padding-bottom: 80px;
+
+ }
